@@ -5,14 +5,13 @@
  */
 import React from 'react';
 
-class Machine extends React.Component {
+class header extends React.Component {
   render() {
     // Dans tous les cas, afficher, générer un txt
-    return <p>Pourquoi,  {this.props.title } {this.props.isActive } {this.props.number }</p>
-    
+    return <div className="header" >Machine1{this.props.number }</div>
 
   }
 }
 
 // Le composant sera accessible avec le nom "Machine"
-export default Machine;
+export default header;
